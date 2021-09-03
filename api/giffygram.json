@@ -16,17 +16,17 @@
             "Id": 1,
             "title": "lost",
             "description": "lost some .....",
-            "imageUrl": "imge.pgp",
-            "timestamp": " ..",
-            " userId": 2
+            "imageURL": "https://media.giphy.com/media/gjgWQA5QBuBmUZahOP/giphy.gif ",
+            "timestamp": " ",
+            "userId": 2
         },
         {
             "Id": 2,
             "title": "lost",
             "description": "lost some .....",
-            "imageUrl": "imge.pgp",
+            "imageURL": "https://media.giphy.com/media/gjgWQA5QBuBmUZahOP/giphy.gif ",
             "timestamp": " ..",
-            " userId": 1
+            "userId": 1
         }
     ],
     "messages": [
