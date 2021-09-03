@@ -1,0 +1,46 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": " Tessema",
+            "dateJoined": 1630514234395
+        },
+        {
+            "id": 2,
+            "name": " Girma",
+            "dateJoined": 1630590184709
+        }
+    ],
+    "posts": [
+        {
+            "Id": 1,
+            "title": "lost",
+            "description": "lost some .....",
+            "imageUrl": "imge.pgp",
+            "timestamp": " ..",
+            " userId": 2
+        },
+        {
+            "Id": 2,
+            "title": "lost",
+            "description": "lost some .....",
+            "imageUrl": "imge.pgp",
+            "timestamp": " ..",
+            " userId": 1
+        }
+    ],
+    "messages": [
+        {
+            "id": 1,
+            "message": "you are wonderful",
+            "senderId": 1,
+            "receiverId": 2
+        },
+        {
+            "id": 2,
+            "message": "i like you your shoes",
+            "senderId": 2,
+            "receiverId": 1
+        }
+    ]
+}
