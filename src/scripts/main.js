@@ -1,15 +1,14 @@
-import { getUsers } from "./data/DataManager.js";
-import { getPosts } from "./Data/DataManager.js";
+import { getUsers, getPosts } from "./data/DataManager.js";
 import { NavBar } from "./nav/NavBar.js";
 
 import { PostList } from "./feed/postlist.js";
 
-const allUsers = getUsers()
-    .then(apiUsers => {
-        console.log("allUsers", apiUsers)
-    }
+// const allUsers = getUsers()
+//     .then(apiUsers => {
+//         console.log("allUsers", apiUsers)
+//     }
 
-    )
+//     )
 
 
 
@@ -45,7 +44,7 @@ const applicationElement = document.querySelector(".giffygram");
 
 applicationElement.addEventListener("click", event => {
     if (event.target.id === "logout") {
-        console.log("You clicked on logout")
+        //console.log("You clicked on logout")
     }
 })
 
