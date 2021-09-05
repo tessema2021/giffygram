@@ -9,22 +9,27 @@
             "id": 2,
             "name": " Girma",
             "dateJoined": 1630590184709
+        },
+        {
+            "name": "ayele",
+            "dateJoined": 1630514234395,
+            "id": 3
         }
     ],
     "posts": [
         {
             "Id": 1,
-            "title": "lost",
+            "title": "confused",
             "description": "lost some .....",
-            "imageURL": "https://media.giphy.com/media/gjgWQA5QBuBmUZahOP/giphy.gif ",
+            "imageURL": "https://media.giphy.com/media/FcuiZUneg1YRAu1lH2/giphy.gif",
             "timestamp": " ",
             "userId": 2
         },
         {
             "Id": 2,
-            "title": "lost",
+            "title": "Messi",
             "description": "lost some .....",
-            "imageURL": "https://media.giphy.com/media/gjgWQA5QBuBmUZahOP/giphy.gif ",
+            "imageURL": "https://media.giphy.com/media/TjAcxImn74uoDYVxFl/giphy.gif ",
             "timestamp": " ..",
             "userId": 1
         }
