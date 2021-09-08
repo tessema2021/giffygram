@@ -1,51 +1,67 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": " Tessema",
-            "dateJoined": 1630514234395
-        },
-        {
-            "id": 2,
-            "name": " Girma",
-            "dateJoined": 1630590184709
-        },
-        {
-            "name": "ayele",
-            "dateJoined": 1630514234395,
-            "id": 3
-        }
-    ],
-    "posts": [
-        {
-            "Id": 1,
-            "title": "confused",
-            "description": "lost some .....",
-            "imageURL": "https://media.giphy.com/media/FcuiZUneg1YRAu1lH2/giphy.gif",
-            "timestamp": " ",
-            "userId": 2
-        },
-        {
-            "Id": 2,
-            "title": "Messi",
-            "description": "lost some .....",
-            "imageURL": "https://media.giphy.com/media/TjAcxImn74uoDYVxFl/giphy.gif ",
-            "timestamp": " ..",
-            "userId": 1
-        }
-    ],
-    "messages": [
-        {
-            "id": 1,
-            "message": "you are wonderful",
-            "senderId": 1,
-            "receiverId": 2
-        },
-        {
-            "id": 2,
-            "message": "i like you your shoes",
-            "senderId": 2,
-            "receiverId": 1
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": " Tessema",
+      "dateJoined": 1630514234395
+    },
+    {
+      "id": 2,
+      "name": " Girma",
+      "dateJoined": 1630590184709
+    },
+    {
+      "name": "ayele",
+      "dateJoined": 1630514234539,
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "title": "confused",
+      "description": "lost some .....",
+      "imageURL": "https://media.giphy.com/media/FcuiZUneg1YRAu1lH2/giphy.gif",
+      "timestamp": 1458018000000
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Messi",
+      "description": "lost some .....",
+      "imageURL": "https://media.giphy.com/media/TjAcxImn74uoDYVxFl/giphy.gif ",
+      "timestamp": 1480485600000
+    },
+    {
+      "title": "",
+      "imageURL": "https://media.giphy.com/media/V2VUM1uIwLJTRW64Pt/giphy.gif",
+      "description": "rrr",
+      "userId": 1,
+      "timestamp": 1631132686057,
+      "id": 3
+    },
+    {
+      "title": "",
+      "imageURL": "https://media.giphy.com/media/V2VUM1uIwLJTRW64Pt/giphy.gif",
+      "description": "rrr",
+      "userId": 1,
+      "timestamp": 1631132690120,
+      "id": 4
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "message": "you are wonderful",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 2,
+      "message": "i like you your shoes",
+      "senderId": 2,
+      "receiverId": 1
+    }
+  ]
 }
