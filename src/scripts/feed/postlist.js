@@ -7,7 +7,7 @@ export const PostList = (allPosts) => {
     for (const postObject of allPosts) {
         //what is a postObject?
         postHTML += posts(postObject)
-    } console.log(postHTML)
+    }
     return postHTML;
 
 }

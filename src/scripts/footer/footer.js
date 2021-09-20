@@ -1,8 +1,6 @@
 export const footbar = () => {
     return ` <footer class="footer_nav">
-        <div class="footer_image">
-            <img src="./images/foot.png" alt="footer image" />
-        </div>
+       
         <div class="navigation__item navigation__search">
             <input type="text" id="footer_postSearch" placeholder="Search posts..." />
         </div>
@@ -23,4 +21,6 @@ export const footbar = () => {
 }
 
 
-
+// <div class="footer_image">
+// <img src="./images/foot.png" alt="footer image" />
+// </div>
