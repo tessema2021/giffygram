@@ -2,23 +2,29 @@
   "users": [
     {
       "id": 1,
-      "name": " Tessema",
+      "name": "Tessema",
+      "email": "ninafuchere@gmail.com",
       "dateJoined": 1630514234395
     },
     {
       "id": 2,
       "name": " Girma",
+      "email": "girma@gmail.com",
       "dateJoined": 1630590184709
     },
     {
       "name": "ayele",
+      "email": "ayele@gmail.com",
       "dateJoined": 1630514234539,
       "id": 3
+    },
+    {
+      "id": 4
     }
   ],
   "posts": [
     {
-      "title": "that is amazing",
+      "title": "wawooo",
       "imageURL": "https://media.giphy.com/media/l0ExayQDzrI2xOb8A/giphy.gif",
       "description": "great",
       "userId": 1,
@@ -40,6 +46,30 @@
       "userId": 1,
       "timestamp": 1632168047690,
       "id": 8
+    },
+    {
+      "title": "that is amazing",
+      "imageURL": "https://media.giphy.com/media/OhrNfRrBxgz16/giphy.gif",
+      "description": "who knows may be ....",
+      "userId": 1,
+      "timestamp": 1632247347577,
+      "id": 10
+    },
+    {
+      "title": "moo",
+      "imageURL": "https://media.giphy.com/media/Vg0JstydL8HCg/giphy.gif",
+      "description": "laughing with friend",
+      "userId": 1,
+      "timestamp": 1632254110907,
+      "id": 11
+    },
+    {
+      "title": "Americas funniest",
+      "imageURL": "https://media.giphy.com/media/3oEduTElttOJ1bJlSM/giphy.gif",
+      "description": "cute kid",
+      "userId": 1,
+      "timestamp": 1632258275486,
+      "id": 12
     }
   ],
   "messages": [
