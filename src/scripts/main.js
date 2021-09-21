@@ -51,6 +51,14 @@ const showEdit = (postObj) => {
     entryElement.innerHTML = PostEdit(postObj);
 }
 
+
+// const showCancel = (postObj) => {
+//     const entryElement = document.querySelector(".entryForm");
+//     entryElement.innerHTML = PostEdit(postObj);
+// }
+
+
+
 const applicationElement = document.querySelector(".giffygram");
 
 // applicationElement.addEventListener("click", event => {
