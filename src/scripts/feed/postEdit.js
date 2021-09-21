@@ -27,7 +27,7 @@ export const PostEdit = (postObj) => {
 		<input type="hidden" value="${postObj.id}" name="postId">
 		<input type="hidden" value="${postObj.timestamp}" name="postTime">	
 		<button id="updatePost__${postObj.id}">Update</button>
-		<button id="newPost__cancel">Cancel</button>
+		<button id="newPost__${postObj.id}">Cancel</button>
 	</div>
 	`
 }
