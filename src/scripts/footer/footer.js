@@ -5,7 +5,7 @@ export const footbar = () => {
             <input type="text" id="footer_postSearch" placeholder="Search posts..." />
         </div>
         <div class="navigation__item navigation__logout">
-            <button id="footer_logout" class="fakeLink">Logout</button>
+            
         </div>
         <div class="footer__item">
                 Posts since <select id="yearSelection">
@@ -24,3 +24,4 @@ export const footbar = () => {
 // <div class="footer_image">
 // <img src="./images/foot.png" alt="footer image" />
 // </div>
+//<button id="footer_logout" class="fakeLink">Logout</button>
