@@ -14,8 +14,11 @@ export const NavBar = () => {
                 <img id="directMessageIcon" src="./images/fountain-pen.svg" alt="Direct message" />
             </div>
             <div class="navigation__item navigation__logout">
-                <button id="logout" class="fakeLink">Logout</button>
+            <button id="logout" class="fakeLink">Logout</button> 
             </div>
         </nav>
     `
 }
+
+
+// <button id="logout" class="fakeLink">Logout</button>

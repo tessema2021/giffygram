@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "name": " Girma",
+      "name": "Girma",
       "email": "girma@gmail.com",
       "dateJoined": 1630590184709
     },
@@ -17,59 +17,122 @@
       "email": "ayele@gmail.com",
       "dateJoined": 1630514234539,
       "id": 3
-    },
-    {
-      "id": 4
     }
   ],
   "posts": [
     {
-      "title": "wawooo",
-      "imageURL": "https://media.giphy.com/media/l0ExayQDzrI2xOb8A/giphy.gif",
-      "description": "great",
+      "title": "that is amazing",
+      "imageURL": "https://media.giphy.com/media/p0RDMJGgMXF96/giphy.gif",
+      "description": "grhr",
       "userId": 1,
-      "timestamp": 1632164232541,
-      "id": 6
+      "timestamp": 1632330692796,
+      "id": 1
     },
     {
       "title": "super",
-      "imageURL": "https://media.giphy.com/media/12PIT4DOj6Tgek/giphy.gif",
-      "description": "Little cute",
+      "imageURL": "https://media.giphy.com/media/3oEduTElttOJ1bJlSM/giphy.gif",
+      "description": "cute kid",
+      "userId": 2,
+      "timestamp": 1632330769589,
+      "id": 2
+    },
+    {
+      "title": "confused",
+      "imageURL": "https://giphy.com/clips/laff-tv-confused-huh-what-the-hell-A19tglYyfc7JPQYwNi",
+      "description": "story",
+      "userId": 2,
+      "timestamp": 1632330891109,
+      "id": 3
+    },
+    {
+      "title": "confused",
+      "imageURL": "https://media.giphy.com/media/FcuiZUneg1YRAu1lH2/giphy.gif",
+      "description": "story",
+      "userId": 2,
+      "timestamp": 1632330952189,
+      "id": 4
+    }
+  ],
+  "userLikes": [
+    {
+      "postId": "6",
       "userId": 1,
-      "timestamp": 1632167893810,
+      "id": 1
+    },
+    {
+      "postId": 7,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "postId": 7,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "postId": 7,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "postId": 7,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "postId": 6,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "postId": 10,
+      "userId": 1,
       "id": 7
     },
     {
-      "title": "That is hilarious",
-      "imageURL": "https://media.giphy.com/media/AznzPzrJY7s9W/giphy.gif",
-      "description": "who knows",
+      "postId": 10,
       "userId": 1,
-      "timestamp": 1632168047690,
       "id": 8
     },
     {
-      "title": "that is amazing",
-      "imageURL": "https://media.giphy.com/media/OhrNfRrBxgz16/giphy.gif",
-      "description": "who knows may be ....",
+      "postId": 10,
       "userId": 1,
-      "timestamp": 1632247347577,
+      "id": 9
+    },
+    {
+      "postId": 10,
+      "userId": 1,
       "id": 10
     },
     {
-      "title": "moo",
-      "imageURL": "https://media.giphy.com/media/Vg0JstydL8HCg/giphy.gif",
-      "description": "laughing with friend",
+      "postId": 10,
       "userId": 1,
-      "timestamp": 1632254110907,
       "id": 11
     },
     {
-      "title": "Americas funniest",
-      "imageURL": "https://media.giphy.com/media/3oEduTElttOJ1bJlSM/giphy.gif",
-      "description": "cute kid",
+      "postId": 10,
       "userId": 1,
-      "timestamp": 1632258275486,
       "id": 12
+    },
+    {
+      "postId": 10,
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "postId": 10,
+      "userId": 1,
+      "id": 14
+    },
+    {
+      "postId": 10,
+      "userId": 1,
+      "id": 15
+    },
+    {
+      "postId": 13,
+      "userId": 2,
+      "id": 16
     }
   ],
   "messages": [

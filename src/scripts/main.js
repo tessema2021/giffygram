@@ -2,7 +2,7 @@ import {
     getUsers, getPosts, usePostCollection,
     createPost, setLoggedInUser,
     deletePost, getSinglePost, getLoggedInUser,
-    updatePost, logoutUser, loginUser, registerUser
+    updatePost, logoutUser, loginUser, registerUser, postLike
 } from "./data/DataManager.js";
 import { NavBar } from "./nav/NavBar.js";
 import { PostEntry } from "./feed/postEntry.js"
@@ -96,6 +96,21 @@ const applicationElement = document.querySelector(".giffygram");
 
 
 applicationElement.addEventListener("click", event => {
+    event.preventDefault();
+    if (event.target.id.startsWith("like")) {
+        const likeObject = {
+            postId: parseInt(event.target.id.split("__")[1]),
+            userId: getLoggedInUser().id
+        }
+        postLike(likeObject)
+            .then(response => {
+                showPostList();
+            })
+    }
+})
+
+
+applicationElement.addEventListener("click", event => {
     if (event.target.id === "logout") {
         logoutUser();
         console.log(getLoggedInUser());
@@ -161,7 +176,7 @@ applicationElement.addEventListener("click", event => {
             title: title,
             imageURL: url,
             description: description,
-            userId: 1,
+            userId: getLoggedInUser().id,
             timestamp: Date.now()
         }
 
